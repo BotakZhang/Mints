@@ -3,6 +3,7 @@ mod HelloStarknet {
     use starknet::get_caller_address;
     use starknet::ContractAddress;
 
+// NFT Mints
 
     #[event]
     fn Hello(from: ContractAddress, value: felt252) {}
